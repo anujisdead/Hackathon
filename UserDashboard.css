@@ -1,0 +1,112 @@
+/* Container styling */
+.dashboard-container {
+    display: flex; /* Align main content and precautions side by side */
+    justify-content: space-between;
+    background: #f3f4f6;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 50px auto; /* Center the container on the page */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main content */
+.main-content {
+    flex: 0.65; /* Set the width of the main content */
+}
+
+/* Section styling */
+.section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px; /* Spacing between sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headers */
+.section h3, .section h4 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+/* Input details styling */
+.section p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Total Emission styling */
+.total-emission {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e11d48; /* Color for the emission text */
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #f59e0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #eab308;
+}
+
+/* Precautions styling */
+.precautions-wrapper {
+    flex: 0.3; /* Set the width of the precautions section */
+    margin-left: 20px; /* Spacing between main content and precautions */
+    background: #e0f7fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.precautions-wrapper h3 {
+    color: #00796b;
+}
+
+.precautions-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.precautions-wrapper li {
+    background: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Chart container styling */
+.chart-container {
+    margin: 20px 0;
+    width: 100%;
+    height: 300px;
+}
+
+/* Adjust other sections as needed */
+.section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,112 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f3f4f6;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 1000px; /* Adjust width */
+    margin: 50px auto; /* Center container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form header */
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+/* Success and error messages */
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+p[style*="color: red"] {
+    color: #e11d48;
+}
+
+p[style*="color: green"] {
+    color: #10b981;
+}
+
+/* Horizontal form layout */
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Each section inside form */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    flex: 1;
+}
+
+/* Input fields and select dropdown */
+input[type="date"],
+input[type="number"],
+select {
+    width: 80%; /* Adjust width to fit within horizontal layout */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #1e3a8a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Section headers */
+h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #f59e0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #eab308;
+}
+
+/* Precautions component styling */
+.precautions-container {
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.precautions-container h2 {
+    color: #1e3a8a;
+}
+
+.precautions-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.precautions-container li {
+    background: #f3f4f6;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
